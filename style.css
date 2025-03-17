@@ -1,0 +1,173 @@
+.body{
+    border: 5px solid rgb(204, 204, 204)
+}
+
+.header{
+    background-color: white;
+    min-height: min-content;
+    position: relative;
+    top: 0px;
+}
+
+.company-logo{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+}
+
+.sub-back{
+    position: sticky;
+    background: rgb(243, 8, 78);
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid rgb(243, 8, 78);
+}
+
+.sub{
+    background-color: rgb(243, 8, 78);
+    width: 200px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.sub-back:active{
+    box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.log-back{
+    position: sticky;
+    background: rgb(255, 255, 255);
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid rgb(243, 8, 78);
+}
+
+.log-in{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    text-align: center;
+    color: rgb(243, 8, 78);
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: 800;
+}
+
+.log-back:active{
+    box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+nav,
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+    gap: 100px;
+    right: 150px;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    align-items: center;
+}
+
+.overlay{
+    color: aliceblue;
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+}
+
+.heading-one{
+    font-size: 100px;
+    margin: inherit;
+    }
+
+.heading-two{
+    font-size: 30px;
+}
+
+.sub-tod-back{
+    position: absolute;
+    background: rgb(243, 8, 78);
+    height: 60px;
+    border-radius: 30px;
+    border: 3px solid rgb(243, 8, 78);
+}
+
+.sub-today{
+    background-color: rgb(243, 8, 78);
+    width: 300px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+
+.music-upgrade{
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+.your-music{
+    font-size: 50px;
+    color: rgba(43,149,253,255);
+    margin-bottom: 0;
+}
+
+.upgrade{
+    font-size: 25px;
+    color: rgba(182,182,182,255);
+}
+
+.basic{
+    background-color: rgb(0, 81, 255);
+    color: aliceblue;
+    text-align: center;
+}
+
+.plus{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.premium{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.subscriptions{
+    display: flex;
+}
+
+.about-photo{
+    position: relative;
+}
+
+.icon-one{
+    top: 1500px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+}
+
+.footer{
+    background-color: rgb(0, 102, 255);
+}
