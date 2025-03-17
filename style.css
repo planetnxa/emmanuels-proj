@@ -61,6 +61,8 @@
     min-height: 500px;
     background-image: url("Jukebox-Starter-Kit/JukeBox IMG/hero-photo.png");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .h1-hero, .h2-hero{
